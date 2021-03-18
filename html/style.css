@@ -1,0 +1,114 @@
+body{
+    background-color:gray;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+   background:black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smothing:antialiased;
+}
+.container{
+    max-width: 1152px ;
+    padding: 15px;
+    margin:0 auto ;
+
+}
+
+header nav .left a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.flex{
+ display: flex;   
+}
+
+items-center {
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+
+}
+
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.btn{
+    padding: end;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300px;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid blue;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background: blueviolet;
+    color: cyan  ;
+}
+
+#div1{
+    margin-top: 40px;
+    padding-left: 100px;
+    text-align: center ;
+    word-spacing: 40px;
+    border: 1px solid transparent whitesmoke;
+}
+
+#div1 :hover{
+    border:2px solid wheat;
+    cursor: pointer;
+}
+
+.right{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.div2 .right{
+    color: honeydew;
+
+}
+
+#h4{
+    color: indigo;
+    padding-left: 100px;
+    font-size: 25px;
+
+}
+
+#h1{
+    color: lawngreen;
+    padding-left:50px;
+}
+
+#p{
+    padding-left: 15px;
+}
+
+.btn-secondary{
+    padding-left:0px;
+    color:black;
+    margin-inline:50px;
+}
+
+.div3 .right {
+    padding-left:550px;
+}
